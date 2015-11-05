@@ -12,9 +12,9 @@
 <h1>Addressbook</h1>
 <table>
 <tr>
-<td>Name</td>
-<td>Telephone</td>
-<td>Email</td>
+<th>Firstname</th>
+<th>Name</th>
+<th>Email</th>
     <c:foreach items="${addressList.getList()}" var="address">
        <tr>
         <td><a href=${address.name} + "_" + ${address.christianname} + ".jsp">${address.name}</a></td>
