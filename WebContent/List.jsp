@@ -15,6 +15,7 @@
 <th>Firstname</th>
 <th>Name</th>
 <th>Email</th>
+</tr>
     <c:foreach items="${addressList.getList()}" var="address">
        <tr>
         <td><a href=${address.name} + "_" + ${address.christianname} + ".jsp">${address.name}</a></td>
